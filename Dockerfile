@@ -1,5 +1,5 @@
 # => Building container
-FROM --platform=$TARGETPLATFORM node:22-slim as builder
+FROM node:22-slim as builder
 WORKDIR /app
 COPY . .
 
